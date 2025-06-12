@@ -1,0 +1,10 @@
+[2025-06-12 07:40:16] local.ERROR: There are no commands defined in the "api" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"api\" namespace. at C:\\xampp\\htdocs\\Audiocallapp\\vendor\\symfony\\console\\Application.php:659)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Audiocallapp\\vendor\\symfony\\console\\Application.php(708): Symfony\\Component\\Console\\Application->findNamespace('api')
+#1 C:\\xampp\\htdocs\\Audiocallapp\\vendor\\symfony\\console\\Application.php(283): Symfony\\Component\\Console\\Application->find('api:install')
+#2 C:\\xampp\\htdocs\\Audiocallapp\\vendor\\symfony\\console\\Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\Audiocallapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\Audiocallapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\\Audiocallapp\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#6 {main}
+"} 
